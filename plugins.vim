@@ -20,6 +20,9 @@ Plug 'tomasr/molokai'
 " Filesystem
 Plug 'justinmk/vim-dirvish'
 
+" Debugging
+Plug 'tpope/vim-dispatch'
+
 " Git
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
@@ -34,5 +37,6 @@ Plug 'szw/vim-maximizer'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+Plug 'mattn/emmet-vim'
 
 call plug#end()
