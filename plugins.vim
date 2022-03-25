@@ -18,7 +18,8 @@ Plug 'tomasr/molokai'
 " Plug 'sickill/vim-monokai'
 
 " Filesystem
-Plug 'justinmk/vim-dirvish'
+" Plug 'justinmk/vim-dirvish'
+Plug 'tpope/vim-vinegar'
 
 " Code Completion
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
