@@ -36,12 +36,6 @@ nnoremap <Leader>. :Dispatch!<CR>
 " Get out of terminal mode
 tnoremap <C-o> <C-\><C-n>
 
-" Use CtrlPFunky
-nnoremap D :CtrlPFunky<CR>
-
-" Open Tagbar
-nnoremap <C-\> :Tagbar<CR>
-
 " LSP Mappings
 nnoremap gd <Plug>(coc-definition)
 nnoremap gy <Plug>(coc-type-definition)
