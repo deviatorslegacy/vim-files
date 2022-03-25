@@ -20,6 +20,10 @@ Plug 'tomasr/molokai'
 " Filesystem
 Plug 'justinmk/vim-dirvish'
 
+" Code Completion
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+Plug 'codechips/coc-svelte', {'do': 'npm install'}
+
 " Debugging
 Plug 'tpope/vim-dispatch'
 

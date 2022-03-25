@@ -41,3 +41,11 @@ nnoremap D :CtrlPFunky<CR>
 
 " Open Tagbar
 nnoremap <C-\> :Tagbar<CR>
+
+" LSP Mappings
+nnoremap gd <Plug>(coc-definition)
+nnoremap gy <Plug>(coc-type-definition)
+nnoremap gy <Plug>(coc-implementation)
+nnoremap gy <Plug>(coc-references)
+
+" nnoremap <silent> K :call <SID>show_documentation()<CR>

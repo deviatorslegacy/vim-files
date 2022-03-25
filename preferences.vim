@@ -5,6 +5,8 @@ filetype plugin indent on
 set termguicolors
 colorscheme molokai
 
+set hidden
+
 " More room for status:
 " Less 'ENTER to continue' prompts
 set cmdheight=2
@@ -36,6 +38,8 @@ set belloff=all
 " Preserve undo history
 set undofile
 set undodir=~/.vim/undodir
+
+set shortmess+=c
 
 " Set Mapleader
 let mapleader = ','
