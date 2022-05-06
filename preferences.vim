@@ -5,6 +5,8 @@ filetype plugin indent on
 set termguicolors
 colorscheme molokai
 
+set hlsearch
+
 set hidden
 
 " More room for status:

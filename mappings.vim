@@ -1,4 +1,3 @@
-" Maximize current window
 nnoremap mm :MaximizerToggle<CR>
 
 " Swap right window with left and maximize
@@ -19,6 +18,9 @@ nnoremap <Leader>sv :source $MYVIMRC<CR>
 " Edit vim config in new tab
 nnoremap <Leader>ev :tabedit $MYVIMRC<CR>
 
+" Clear search highlighting
+nnoremap <C-n> :nohlsearch<CR>
+
 " Open a new tab
 nnoremap <Leader>t :tabnew<CR>
 
@@ -36,10 +38,5 @@ nnoremap <Leader>. :Dispatch!<CR>
 " Get out of terminal mode
 tnoremap <C-o> <C-\><C-n>
 
-" LSP Mappings
-nnoremap gd <Plug>(coc-definition)
-nnoremap gy <Plug>(coc-type-definition)
-nnoremap gy <Plug>(coc-implementation)
-nnoremap gy <Plug>(coc-references)
-
-" nnoremap <silent> K :call <SID>show_documentation()<CR>
+" Use CtrlPLine
+nnoremap <C-S-p> :CtrlPLine<CR>
