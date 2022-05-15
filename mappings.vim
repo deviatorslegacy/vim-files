@@ -35,6 +35,9 @@ nnoremap <Leader>ef :Lexplore 20<CR>
 nnoremap <Leader>, :Start<CR>
 nnoremap <Leader>. :Dispatch!<CR>
 
+" Open a terminal
+nnoremap tt :terminal<CR>
+
 " Get out of terminal mode
 tnoremap <C-o> <C-\><C-n>
 
