@@ -40,6 +40,3 @@ nnoremap tt :terminal<CR>
 
 " Get out of terminal mode
 tnoremap <C-o> <C-\><C-n>
-
-" Use CtrlPLine
-nnoremap <C-S-p> :CtrlPLine<CR>
