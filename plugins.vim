@@ -16,7 +16,5 @@ Plug 'szw/vim-maximizer' " Windows
 Plug 'tpope/vim-surround' " Manipulate quotes, parens, etc.
 Plug 'tpope/vim-commentary' " Comment/uncomment lines
 Plug 'mattn/emmet-vim' " Snippets for web development
-Plug 'vim-python/python-syntax' " Python syntax (better)
-Plug 'nvie/vim-flake8' " Python indentation
 
 call plug#end()
