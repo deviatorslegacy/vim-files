@@ -2,8 +2,7 @@
 syntax on
 filetype plugin indent on
 
-set termguicolors
-colorscheme molokai
+colorscheme inkpot
 
 set hlsearch
 
