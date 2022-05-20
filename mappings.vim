@@ -16,8 +16,8 @@ nnoremap <C-c> <C-w><C-v>
 " Reload buffer in current window
 nnoremap <Leader>r :execute 'e ' .. fnameescape(expand('%'))<CR>
 
-" Close all other windows
-nnoremap <Tab> <C-w><C-o>
+" Open Git panel
+nnoremap <Tab> :Git<CR>
 
 " Source vim config
 nnoremap <Leader>sv :source $MYVIMRC<CR>
