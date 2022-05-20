@@ -11,6 +11,7 @@ Plug 'ciaranm/inkpot' " Colorscheme
 Plug 'tpope/vim-vinegar' " Filesystem
 Plug 'tpope/vim-dispatch' " Debugging
 Plug 'tpope/vim-fugitive' " Git wrapper
+Plug 'tpope/vim-rhubarb' " Github plugin for Fugitive
 Plug 'ap/vim-css-color' " Highlight colors
 Plug 'elixir-editors/vim-elixir' " Elixir highlighting
 Plug 'szw/vim-maximizer' " Windows
