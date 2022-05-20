@@ -47,3 +47,6 @@ let mapleader = ','
 
 " Set Emmet's leader key
 let g:user_emmet_leader_key = '<C-Z>'
+
+" Set up ALE to autoformat source code
+let g:ale_fixers = { 'elixir': ['mix_format'] }

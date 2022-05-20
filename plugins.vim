@@ -12,9 +12,11 @@ Plug 'tpope/vim-vinegar' " Filesystem
 Plug 'tpope/vim-dispatch' " Debugging
 Plug 'tpope/vim-fugitive' " Git wrapper
 Plug 'ap/vim-css-color' " Highlight colors
+Plug 'elixir-editors/vim-elixir' " Elixir highlighting
 Plug 'szw/vim-maximizer' " Windows
 Plug 'tpope/vim-surround' " Manipulate quotes, parens, etc.
 Plug 'tpope/vim-commentary' " Comment/uncomment lines
 Plug 'mattn/emmet-vim' " Snippets for web development
+Plug 'dense-analysis/ale' " Linting engine
 
 call plug#end()
