@@ -9,8 +9,15 @@ nnoremap <C-j> <C-w><C-j>
 nnoremap <C-k> <C-w><C-k>
 nnoremap <C-l> <C-w><C-l>
 
+" Open split windows
+nnoremap <C-s> <C-w><C-s>
+nnoremap <C-c> <C-w><C-v>
+
 " Reload buffer in current window
 nnoremap <Leader>r :execute 'e ' .. fnameescape(expand('%'))<CR>
+
+" Close all other windows
+nnoremap <Tab> <C-w><C-o>
 
 " Source vim config
 nnoremap <Leader>sv :source $MYVIMRC<CR>
