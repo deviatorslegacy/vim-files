@@ -18,5 +18,6 @@ Plug 'tpope/vim-surround' " Manipulate quotes, parens, etc.
 Plug 'tpope/vim-commentary' " Comment/uncomment lines
 Plug 'mattn/emmet-vim' " Snippets for web development
 Plug 'dense-analysis/ale' " Linting engine
+Plug 'tpope/vim-rails' " Power tool for Ruby on Rails
 
 call plug#end()
