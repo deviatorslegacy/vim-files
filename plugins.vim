@@ -16,5 +16,7 @@ Plug 'szw/vim-maximizer' " Windows
 Plug 'tpope/vim-surround' " Manipulate quotes, parens, etc.
 Plug 'tpope/vim-commentary' " Comment/uncomment lines
 Plug 'mattn/emmet-vim' " Snippets for web development
+Plug 'digitaltoad/vim-pug' " Syntax for pugjs
+Plug 'kchmck/vim-coffee-script' " Syntax for coffee-script
 
 call plug#end()
