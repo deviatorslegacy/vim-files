@@ -7,7 +7,7 @@ endif
 call plug#begin()
 
 Plug 'kien/ctrlp.vim' " Fuzzy finder
-Plug 'ciaranm/inkpot' " Colorscheme
+Plug 'rainglow/vim', { 'as': 'rainglow' } " Colorschemes
 Plug 'tpope/vim-vinegar' " Filesystem
 Plug 'tpope/vim-dispatch' " Debugging
 Plug 'tpope/vim-fugitive' " Git wrapper

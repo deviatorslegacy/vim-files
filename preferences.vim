@@ -2,7 +2,8 @@
 syntax on
 filetype plugin indent on
 
-colorscheme inkpot
+colorscheme azure-contrast
+set termguicolors
 
 set hlsearch
 
