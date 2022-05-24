@@ -2,7 +2,7 @@
 syntax on
 filetype plugin indent on
 
-colorscheme azure-contrast
+colorscheme gruvbox
 set termguicolors
 
 set hlsearch
@@ -11,7 +11,6 @@ set hidden
 
 " Show a verticle line to constrain code
 set colorcolumn=80
-highlight ColorColumn guibg=#222233
 
 " More room for status:
 " Less 'ENTER to continue' prompts
