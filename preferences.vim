@@ -11,6 +11,7 @@ set hidden
 
 " Show a verticle line to constrain code
 set colorcolumn=80
+highlight ColorColumn guibg=#222233
 
 " More room for status:
 " Less 'ENTER to continue' prompts
