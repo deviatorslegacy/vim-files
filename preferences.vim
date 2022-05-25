@@ -4,6 +4,7 @@ filetype plugin indent on
 
 colorscheme gruvbox
 set termguicolors
+set background=dark
 
 set hlsearch
 
