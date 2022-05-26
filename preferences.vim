@@ -32,9 +32,6 @@ set number
 set relativenumber
 set numberwidth=10
 
-" Set shorter update time
-set updatetime=300
-
 " No text wrapping
 set nowrap
 
