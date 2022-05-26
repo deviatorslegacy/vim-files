@@ -23,5 +23,6 @@ Plug 'tpope/vim-rails' " Power tool for Ruby on Rails
 Plug 'digitaltoad/vim-pug' " Syntax for pugjs
 Plug 'kchmck/vim-coffee-script' " Syntax for coffee-script
 Plug 'pangloss/vim-javascript' " Improved javascript syntax
+Plug 'MaxMEllon/vim-jsx-pretty' " JSX syntax
 
 call plug#end()
